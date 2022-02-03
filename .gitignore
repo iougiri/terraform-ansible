@@ -1,3 +1,9 @@
+# Files with sensitive variable values
+**/secret*.tfvars
+
+# Terraform lockfile
+**/.terraform.lock.hcl
+
 # Local .terraform directories
 **/.terraform/*
 
@@ -27,3 +33,7 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# Swap files
+**/*.swp
+**/*~
